@@ -11,6 +11,7 @@ CREATE TABLE student(
 	role varchar(25),
 	primary key (student_id)
 );
+
 CREATE TABLE instructor(
 	instructor_id int NOT NULL AUTO_INCREMENT,
 	first_name varchar(30),
